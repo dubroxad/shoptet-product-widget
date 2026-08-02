@@ -1,3 +1,6 @@
+console.log("Widget loaded");
+alert("Widget loaded");
+
 document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll("[data-product]").forEach(loadProduct);
 });
