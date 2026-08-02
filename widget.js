@@ -21,9 +21,7 @@ async function loadProduct(container) {
         const doc = new DOMParser().parseFromString(html, "text/html");
 
         const title =
-            doc.querySelector('[itemprop="name"]')?.textContent.trim() ||
-            doc.querySelector("h1")?.textContent.trim() ||
-            "";
+            doc.querySelector("h1")?.textContent.trim() || "";
 
         const priceElement =
             doc.querySelector('[itemprop="price"]');

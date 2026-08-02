@@ -17,3 +17,6 @@ Vloženie produktu do blogového článku pomocou jedného divu.
     <div data-product="/produkt2/" data-theme="compact"></div>
     <div data-product="/produkt3/" data-theme="compact"></div>
 </div>
+
+compact
+horizontal
