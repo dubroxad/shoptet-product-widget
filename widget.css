@@ -108,6 +108,7 @@
 .am-price {
     font-size: 32px;
     font-weight: 700;
+    color: #e9242e;
 }
 
 .am-stock {
@@ -138,13 +139,13 @@
 }
 
 .am-badge {
-    position: absolute;
-    top: 12px;
-    right: 12px;
+    display: inline-block;
 
-    padding: 6px 10px;
+    margin-bottom: 12px;
 
-    border-radius: 30px;
+    padding: 6px 12px;
+
+    border-radius: 999px;
 
     background: #AACF24;
     color: #fff;

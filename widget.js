@@ -43,13 +43,11 @@ async function loadProduct(container) {
 
         const stock =
             availability.includes("InStock")
-                ? "✅ Skladom"
-                : "❌ Nedostupné";
+                ? "Skladom"
+                : "Nedostupné";
 
         container.innerHTML = `
             <div class="am-widget am-${theme}">
-
-                ${badge ? `<div class="am-badge">${badge}</div>` : ""}
 
                 <a href="${url}" class="am-image-link">
                     <img class="am-image"
@@ -59,7 +57,9 @@ async function loadProduct(container) {
                 </a>
 
                 <div class="am-content">
-
+                    
+                    ${badge ? `<div class="am-badge">${badge}</div>` : ""}
+                    
                     <h3 class="am-title">
                         <a href="${url}">
                             ${title}
