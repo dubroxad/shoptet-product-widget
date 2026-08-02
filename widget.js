@@ -58,7 +58,7 @@ async function loadProduct(container) {
 
                 <div class="am-content">
                     
-                    ${badge ? `<div class="am-badge">${badge}</div>` : ""}
+                    ${badge ? `<span class="am-badge">${badge}</span>` : ""}
                     
                     <h3 class="am-title">
                         <a href="${url}">

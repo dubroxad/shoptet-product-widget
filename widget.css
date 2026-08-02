@@ -139,7 +139,12 @@
 }
 
 .am-badge {
-    display: inline-block;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    align-self: flex-start;
 
     margin-bottom: 12px;
 
@@ -152,6 +157,7 @@
 
     font-size: 12px;
     font-weight: 700;
+
 }
 
 .am-error {
