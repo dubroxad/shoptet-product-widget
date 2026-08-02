@@ -11,3 +11,9 @@ Vloženie produktu do blogového článku pomocou jedného divu.
     data-button="Kúpiť teraz"
     data-badge="Odporúčame">
 </div>
+
+<div class="am-grid">
+    <div data-product="/produkt1/" data-theme="compact"></div>
+    <div data-product="/produkt2/" data-theme="compact"></div>
+    <div data-product="/produkt3/" data-theme="compact"></div>
+</div>
