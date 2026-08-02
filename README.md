@@ -1,0 +1,1 @@
+# shoptet-product-widget
